@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="20dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/rounded_background"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/loker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asisten Rumah Tangga"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/loker_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/loker_title"
+        android:text="Cengkareng, Jawa Barat"
+        android:textSize="11sp"
+        android:textColor="@color/greyText"/>
+
+    <TextView
+        android:id="@+id/loker_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/loker_location"
+        android:text="Rp. 2.000.000 - 2.500.000"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/loker_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/loker_salary"
+        android:text="3 jam lalu"
+        android:textSize="14sp"
+        android:textColor="@color/greyText"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bookmark_border_24px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
